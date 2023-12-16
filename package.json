@@ -1,0 +1,44 @@
+{
+  "name": "ep-3-laying-the-foundation",
+  "version": "1.0.0",
+  "description": "ep-3",
+  "scripts": {
+    "start": "parcel build index.html && parcel index.html ",
+    "build": "parcel build index.html",
+    "test": "jest",
+    "watch-test": "jest --watch"
+  },
+  "author": "mridul",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-react": "^7.22.15",
+    "@locator/babel-jsx": "^0.4.2",
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.0.0",
+    "babel-jest": "^29.7.0",
+    "eslint": "^8.51.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-n": "^16.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.33.2",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "package": "^1.0.1",
+    "postcss": "^8.4.31",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
+    "parcel": "^2.9.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.16.0",
+    "router-dom": "^2.2.11"
+  }
+}

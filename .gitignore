@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+/node_modules
+/.parcel-cache
+/dist
+=======
+/.parcel-cache
+/dist
+/node_modules
+>>>>>>> 9ae8e9a (Pushed 3rd episode)
